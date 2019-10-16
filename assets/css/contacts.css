@@ -1,0 +1,40 @@
+body {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.content {
+	margin-top: 15vh;
+	width: 80%;
+}
+
+.section {
+	margin-left: 3vw;
+	margin-right: 5vw;
+}
+
+.section-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	color: #586069;
+	text-decoration: none;
+}
+
+.section span {
+	margin-right: 1vw;
+	margin-left: 1vw;
+
+	font-size: 6vh;
+	color: #d1d5da;
+}
+
+#email:hover * { color: #4caf50; }
+#telegram:hover * { color: #0088cc; }
+#github:hover * { color: #333; }
+#reddit:hover * { color: #ff4500; }
+#keybase:hover * { color: #00de8f; }
